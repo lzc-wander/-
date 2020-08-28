@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "good_img": "./img/good.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 2,
+      "good_img": "./img/erji.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 3,
+      "good_img": "./img/kongtiao.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 4,
+      "good_img": "./img/sanxing.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 5,
+      "good_img": "./img/good.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 6,
+      "good_img": "./img/good.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 7,
+      "good_img": "./img/erji.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 8,
+      "good_img": "./img/kongtiao.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 9,
+      "good_img": "./img/sanxing.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    },
+    {
+      "id": 10,
+      "good_img": "./img/good.jpg",
+      "good_name": "分布式无线路由器",
+      "new_price": 666,
+      "monthsale": 50000
+    }
+  ],
+  "code": 0,
+  "msg": "请求成功"
+}

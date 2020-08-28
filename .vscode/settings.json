@@ -1,0 +1,8 @@
+{
+  "view-in-browser.customBrowser": "chrome",
+  "files.autoSave": "onFocusChange",
+  "workbench.colorTheme": "Visual Studio Light",
+  "emmet.extensionsPath": "",
+  "emmet.syntaxProfiles": {},
+  "emmet.preferences": {}
+}

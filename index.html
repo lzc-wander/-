@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>电商商城</title>
+    <meta name="description" content="网上购物商城" />
+    <meta
+      name="keywords"
+      content="网上购物，网上商城，家用电器，手机，电脑，生活用品"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- 顶部登陆注册栏 -->
+    <div class="top-nav">
+      <div class="w clearfix">
+        <div class="login">
+          <a href="#" class="h">您好，请登录</a>
+          <a href="#">免费注册</a>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="link">我的订单</a>
+          </li>
+          <li>
+            <a href="#" class="link">购物车</a>
+          </li>
+          <li>
+            <a href="#" class="link">收藏夹</a>
+          </li>
+          <li>
+            <a href="#" class="link">联系客服</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 搜索框 -->
+    <div class="search">
+      <div class="w">
+        <a href="#" class="logo">WM商城</a>
+        <div class="search-box clearfix">
+          <input
+            type="text"
+            class="searchInput"
+            id="searchInput"
+            placeholder="请输入商品名称"
+          />
+          <button class="search-btn">搜索</button>
+          <div class="search-suggest" id="search-suggest">
+            <ul id="suggest-detail">
+              <!-- <li>html5</li>
+              <li>css3</li>
+              <li>js</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 商品分类 -->
+    <div class="w menu clearfix">
+      <div class="aside-nav">
+        <ul class="nav-list">
+          <li class="list-item">
+            <a href="#" class="item-href">女装/裙子</a>
+            <!-- 二级分类 -->
+            <div class="item-menu clearfix">
+              <div class="subcate">
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+              </div>
+              <!-- 猜你喜欢 -->
+              <div class="guessLike">
+                <h3>猜你喜欢</h3>
+                <ul class="like_list clearfix">
+                  <li class="like-item">
+                    <a href="#" class="like_lk">
+                      <img src="img/good.jpg" alt="路由器" />
+                      <p>分布式无线路由器</p>
+                    </a>
+                  </li>
+                  <li class="like-item">
+                    <a href="#" class="like_lk">
+                      <img src="img/good.jpg" alt="路由器" />
+                      <p>分布式无线路由器</p>
+                    </a>
+                  </li>
+                  <li class="like-item">
+                    <a href="#" class="like_lk">
+                      <img src="img/good.jpg" alt="路由器" />
+                      <p>分布式无线路由器</p>
+                    </a>
+                  </li>
+                  <li class="like-item">
+                    <a href="#" class="like_lk">
+                      <img src="img/good.jpg" alt="路由器" />
+                      <p>分布式无线路由器</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">男装户外</a>
+            <div class="item-menu clearfix">
+              <div class="subcate">
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子1 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子1 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子1 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">女鞋/男鞋/箱包</a>
+            <div class="item-menu clearfix">
+              <div class="subcate">
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子2 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子2 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+                <dl class="subcate_item">
+                  <dt class="subcate_title">
+                    <a href="#" class="subcate_link"
+                      >裙子2 <i class="subcate_title_arrow">></i></a
+                    >
+                  </dt>
+                  <dd class="subcate_con clearfix">
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                    <a href="#" class="subcate_con_lk">夏装短裙</a>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">美妆/个人护理</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">腕表/眼镜/</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">手机/数码/电脑</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">家用电器</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">零食/茶酒/进口食品</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">生鲜水果</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="item-href">家纺/家饰</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 轮播图 -->
+      <div class="banner-wrap">
+        <div class="banner">
+          <ul id="swiper">
+            <!-- <li class="swiper-item">
+              <a href="#">
+                <img src="./img/erji.jpg" alt="" />
+              </a>
+            </li>
+            <li class="swiper-item">
+              <a href="#">
+                <img src="./img/sanxing.jpg" alt="" />
+              </a>
+            </li>
+            <li class="swiper-item">
+              <a href="#">
+                <img src="./img/kongtiao.jpg" alt="" />
+              </a>
+            </li> -->
+          </ul>
+          <div class="prev swiper-arrow"><</div>
+          <div class="next swiper-arrow">></div>
+          <div id="indicators" class="indicators">
+            <!-- <div class="on indicator" data-index="0"></div>
+            <div class="indicator" data-index="1"></div>
+            <div class="indicator" data-index="2"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 秒杀抢购 -->
+    <div class="miaosha w clearfix" id="miaosha">
+      <div class="miaosha-time">
+        <div class="ms_tit">秒杀抢购</div>
+        <div class="ms_desc">本场距离结束还剩</div>
+        <div class="countdown clearfix">
+          <div class="cd_item cd_hour">--</div>
+          <div class="cd_item cd_minute">--</div>
+          <div class="cd_item cd_second">--</div>
+        </div>
+      </div>
+      <div id="miaoshaList" class="miaosha-list clearfix">
+        <div class="ms-item">
+          <a href="#" class="ms-item-lk">
+            <img src="./img/good.jpg" alt="" class="ms-item-img" />
+            <p class="ms-item-name">分布式路由器</p>
+            <div class="ms-item-buy">
+              <span class="progress"><span class="progress-bar"></span></span>
+              <span class="buy-num">已抢30%</span>
+            </div>
+            <div class="ms-item-price clearfix">
+              <span class="cm-price new-price">￥549.00</span>
+              <span class="cm-price origin-price">￥699.00</span>
+            </div>
+          </a>
+        </div>
+        <div class="ms-item">
+          <a href="#" class="ms-item-lk">
+            <img src="./img/good.jpg" alt="" class="ms-item-img" />
+            <p class="ms-item-name">分布式路由器</p>
+            <div class="ms-item-buy">
+              <span class="progress"><span class="progress-bar"></span></span>
+              <span class="buy-num">已抢30%</span>
+            </div>
+            <div class="ms-item-price clearfix">
+              <span class="cm-price new-price">￥549.00</span>
+              <span class="cm-price origin-price">￥699.00</span>
+            </div>
+          </a>
+        </div>
+        <div class="ms-item">
+          <a href="#" class="ms-item-lk">
+            <img src="./img/good.jpg" alt="" class="ms-item-img" />
+            <p class="ms-item-name">分布式路由器</p>
+            <div class="ms-item-buy">
+              <span class="progress"><span class="progress-bar"></span></span>
+              <span class="buy-num">已抢30%</span>
+            </div>
+            <div class="ms-item-price clearfix">
+              <span class="cm-price new-price">￥549.00</span>
+              <span class="cm-price origin-price">￥699.00</span>
+            </div>
+          </a>
+        </div>
+        <div class="ms-item">
+          <a href="#" class="ms-item-lk">
+            <img src="./img/good.jpg" alt="" class="ms-item-img" />
+            <p class="ms-item-name">分布式路由器</p>
+            <div class="ms-item-buy">
+              <span class="progress"><span class="progress-bar"></span></span>
+              <span class="buy-num">已抢30%</span>
+            </div>
+            <div class="ms-item-price clearfix">
+              <span class="cm-price new-price">￥549.00</span>
+              <span class="cm-price origin-price">￥699.00</span>
+            </div>
+          </a>
+        </div>
+        <div class="ms-item">
+          <a href="#" class="ms-item-lk">
+            <img src="./img/good.jpg" alt="" class="ms-item-img" />
+            <p class="ms-item-name">分布式路由器</p>
+            <div class="ms-item-buy">
+              <span class="progress"><span class="progress-bar"></span></span>
+              <span class="buy-num">已抢30%</span>
+            </div>
+            <div class="ms-item-price clearfix">
+              <span class="cm-price new-price">￥549.00</span>
+              <span class="cm-price origin-price">￥699.00</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 热卖单品 -->
+    <div class="layer w" id="hotsale">
+      <div class="layer-inner">
+        <h3 class="hotSale">热卖单品</h3>
+        <ul class="saleList clearfix" id="hotsaleList">
+          <!-- <li class="bs-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+              <p class="title">
+                分布式无线路由器111111111111111111111111111111111111111111
+              </p>
+              <div class="line-2 clearfix">
+                <span class="comment">评论<em>8887</em></span>
+                <span class="collect">收藏<em>8887</em></span>
+              </div>
+              <div class="line-3">
+                <span class="strong">1100</span>
+                <span class="price-through">￥2400</span>
+                <span class="sell">月销1000笔</span>
+              </div>
+            </a>
+          </li>
+          <li class="bs-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+              <p class="title">
+                分布式无线路由器111111111111111111111111111111111111111111
+              </p>
+              <div class="line-2 clearfix">
+                <span class="comment">评论<em>8887</em></span>
+                <span class="collect">收藏<em>8887</em></span>
+              </div>
+              <div class="line-3">
+                <span class="strong">1100</span>
+                <span class="price-through">￥2400</span>
+                <span class="sell">月销1000笔</span>
+              </div>
+            </a>
+          </li>
+          <li class="bs-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+              <p class="title">
+                分布式无线路由器111111111111111111111111111111111111111111
+              </p>
+              <div class="line-2 clearfix">
+                <span class="comment">评论<em>8887</em></span>
+                <span class="collect">收藏<em>8887</em></span>
+              </div>
+              <div class="line-3">
+                <span class="strong">1100</span>
+                <span class="price-through">￥2400</span>
+                <span class="sell">月销1000笔</span>
+              </div>
+            </a>
+          </li>
+          <li class="bs-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+              <p class="title">
+                分布式无线路由器111111111111111111111111111111111111111111
+              </p>
+              <div class="line-2 clearfix">
+                <span class="comment">评论<em>8887</em></span>
+                <span class="collect">收藏<em>8887</em></span>
+              </div>
+              <div class="line-3">
+                <span class="strong">1100</span>
+                <span class="price-through">￥2400</span>
+                <span class="sell">月销1000笔</span>
+              </div>
+            </a>
+          </li>
+          <li class="bs-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+              <p class="title">
+                分布式无线路由器111111111111111111111111111111111111111111
+              </p>
+              <div class="line-2 clearfix">
+                <span class="comment">评论<em>8887</em></span>
+                <span class="collect">收藏<em>8887</em></span>
+              </div>
+              <div class="line-3">
+                <span class="strong">1100</span>
+                <span class="price-through">￥2400</span>
+                <span class="sell">月销1000笔</span>
+              </div>
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div id="guesslike" class="layer w">
+      <div class="layer-inner">
+        <h3 class="likeSale">猜你喜欢</h3>
+        <ul id="gl" class="saleList clearfix">
+          <!-- <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li>
+          <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li>
+          <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li>
+          <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li>
+          <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li>
+          <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li>
+          <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li>
+          <li class="like-item item">
+            <a href="#">
+              <img src="./img/good.jpg" alt="" class="item-img" />
+            </a>
+            <p class="title">分布式无线路由器</p>
+            <div class="line-3">
+              <span class="strong">1100</span>
+              <span class="sell">月销3000笔</span>
+            </div>
+            <a href="#" class="item-more">发现更多相似宝贝</a>
+          </li> -->
+        </ul>
+        <div class="loadMore" id="loadMore">
+          <span>加载更多</span>
+        </div>
+      </div>
+    </div>
+    <!-- 底部版权信息 -->
+    <div class="footer">
+      <div class="footer_container w">
+        <div class="footer_social">
+          <a href="#">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAmVBMVEUAAADrXVzqXVzsXVzrXVzrXVzqXFvrXVzrXFzrXFzrXFvsXVztXV3qXVzqXVzrXVzrXVzsXVzqXVzrXVzrXVzrXFvrXVztXl3sXV3sXFvqXFvrXVzrXVzrXVzrXV3rXVzsXl3sXl3sXFvsXVztW1vtXFvrXVzqXFzrXVzqXFvsXVzrXFvtXFvuW1vsXFzsXl3rXV3sWlnqXVwFstRJAAAAMnRSTlMAyfJk6OPTqFxTQTsx+M+bjHf12bCfhE5GFN/BvLeUfVZJLBoMBezEiW1fNyUdCnFrAybGT4MAAAEmSURBVCjPbZLZcoMwDEUvxmwhrAkEsidAs7RJW/3/x9VgA4XxeREzZyxZF2PgM3EMxmzntMCczYEGDHeiyjVNuH2NbvlBczaDIw2FdO+UdMjOe9KyhWBBE5zkbskvE4AxlZ6/REwtvPl3GxY9dqLs+EFZD6ferUvg2nareARqieAol3URHs4LO/IChF1SsNW5MZFgn2FFAgspyYoqDrmR+0KSIzdgCLr6hEfkHEWMD5T9/VPZgH5fFEDuVQ6bc8j/AZNcPzuLQhUKJUPkXb3W9H1i7cnjmGcGXwVZ8PvlbFMO5KRwoYZaF9/0TLdBsetdWgObfkKcPN04pIEEApu0sAaCl1766uXpnAnFRe8U19lca/qwf1aj4skbM7zjbcuYZURuDcUf0IRfo5ZkTFQAAAAASUVORK5CYII="
+              alt="官方微博"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA6lBMVEUAAABQt3RIvHRQtnVQtnRRtXRPtnRQtnRNuHFPuHVPt3RQtnRPt3NQtnRRtnRPt3RPtnRQtnRPuHVNuHNQtnJKvXJQtnRQtnRRtnNPtnRNvW9OuHZYtnJQtnRQuXJOt3ZNuXNPtnRWs3NPtnNPtnVPuHVOuHZLumpZrYRPt3ROt3NcrHFPuHNOtXJOuXFSs3hLu3ZStXxWsHQ+xXVKu21QuXJMuHJQtnNQt3VOt2k4y3dQt3RQtXUz0E5YrG1eqogu0kgx0ncz0XhDwWJUtXlQtnRRtnRQtnVTtHRRtnVWsXVbq3NTtHdcqoV/VWtCAAAARXRSTlMAOAPg8u/Y0HEM+va1sZV2Zl1PQBoG3cy+p1UqHuXMx8TDv6ugm4JeXVpFNTAlFOrg1LOxlYmHhXt4YGBTUUxLRkM0LhBCU+vDAAABTUlEQVQoz22S5ZrCMBBFb4WiVVp8cZd1d0sF2Pd/naVTo8D5k3ZO5pvvJkEMp9arGTE7eCzjEKPGYqp6Spkltodjd5uJW4gsjeu+R+57ww6x3S8Q+YLNjnA2LZJ9l51C8t083FrP6ZpS2evVAWRpRm0F4iEZccaDI9cBOBMom9ASa2BMsomlM8CvlwWyTiQVyP6yq+VzHPiZqmmKEMke6FNGwM903tpN6q9JVlDwlwxP7lNFwI1LVRRpZo5OY2qhfYf6NfiMt6sWITGyBg+sOOCVQ2MGjCgLZEYUAFjJXQz9QFWMg1zyiyDVRpE7p2FDlANJf24jdG3KqgMSWcJm96YvVSqJecAIJVmv0CtVSiU7TnC1ZSewg+wtl5267AWIt7/jvvUzQj6Yl3bueoKYpWQ7++4y/bBzAtuG7d7Fk4U0VuO2K4ii0FEmeYT8AzRaeyGGpXtyAAAAAElFTkSuQmCC"
+              alt="官方公众号"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAz1BMVEUAAAAvpd4wpd0wpd4tpuAxqt4wpd4vpd4wqN0ppuImquUwpN0wpd4vpd8wpd0up98wpt4wpd0vpt0tpN8vqd4speMvpd0opeI0pdgvpt4vpd0rpOEwpd0xpd0wpd0sqeAqquIurOEtqN8upd4nqOUpqOIupOgsouAvoNsqp+E1qdovpd4wpd4vpd0xo90wpdkun9wvpt0vpd4imukgwewyouEemOwdme0to9wmqOQ5stwwpd0xpdwzpdsxpNwwpdwvpN03qtczp90yotw4mNeIn8/UAAAAO3RSTlMA8t/YTzfuz1wMBujiy8rEsKGSgHlCPSj++vbyvLWrlXBhVkUxGxTg1MPBp6aZmI6Jd2lgUUtDNC8hH6zWnXoAAAEaSURBVCjPbZLneoJQDIY/tgqyRKh71u69e8DR9v6vqQ+eEHq07y+SN0DyJGCsh2vf1pxx0sUh5lAwfkNRpyPxl+IiA2Npa6HaE7Nyb7tcHJB/vUrX7LOr2e4+UXJJTmVjlG6x5YRxEwe1LXt2OIzL2kcOPcDiYIQ999y5iQ7LdylbPbLFBCEXriDRKbMO4FX/b4O4E4SOXjV2XMmu2MiUDY1etFeocGjwPgySCTsewEVITxlqPOqCR7kaf9AoYeTKVISU17SkPQxyarEBGCQ7IDIpi0ETMKmwbabzoTNLFxF9aVpWnhfiP2x5QCyVZVvY8/xzfCbFE4gXcXRgMzBLQ3Vn6mFPdfFdrcpNWlBpzSeBrmm6f9togvgFmINuYDwpQKQAAAAASUVORK5CYII="
+              alt="客服QQ"
+            />
+          </a>
+        </div>
+        <ul class="footer_link">
+          <li><a href="">关于我们</a></li>
+          <li><a href="">联系我们</a></li>
+          <li><a href="">帮助中心</a></li>
+          <li><a href="">加入我们</a></li>
+          <li><a href="">平台合作</a></li>
+          <li><a href="">友情链接</a></li>
+        </ul>
+        <div class="footer_copyright">
+          Copyright © 2019 小D商城，粤ICP备xxxxx号
+        </div>
+      </div>
+    </div>
+    <!-- 悬浮导航 -->
+    <div class="tool">
+      <a href="#miaosha" class="on tool-item1">秒杀<br />抢购</a>
+      <a href="#hotsale" class="tool-item2">热卖<br />单品</a>
+      <a href="#guesslike" class="tool-item3">猜你<br />喜欢</a>
+      <a href="#miaosha" class="tool-item4" onclick="goTop()" id="goTop"
+        ><span class="top-arrow"></span>顶部</a
+      >
+      <a href="#miaosha" class="tool-item5">反馈</a>
+    </div>
+
+    <script src="./js/ajax.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

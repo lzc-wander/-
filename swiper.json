@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "banner_img": "./img/erji.jpg"
+    },
+    {
+      "id": 2,
+      "banner_img": "./img/sanxing.jpg"
+    },
+    {
+      "id": 3,
+      "banner_img": "./img/kongtiao.jpg"
+    },
+    {
+      "id": 4,
+      "banner_img": "./img/kongtiao.jpg"
+    }
+  ],
+  "code": 0,
+  "msg": "请求成功"
+}
